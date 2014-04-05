@@ -1,0 +1,12 @@
+[Unit]
+Description=node.js www boilerplate
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/node %h/node-www-boilerplate/www.js --log %h/node-www-boilerplate/logs/www.log
+
+User=%i
+Group=%i
+
+[Install]
+WantedBy=multi-user.target

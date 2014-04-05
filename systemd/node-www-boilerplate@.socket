@@ -1,0 +1,8 @@
+[Unit]
+Description=node.js www boilerplate socket
+
+[Socket]
+ListenStream=%t/node-www-boilerplate/%i.socket
+
+[Install]
+WantedBy=sockets.target

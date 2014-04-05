@@ -1,0 +1,2 @@
+#!/bin/bash
+NODE_ENV=development PORT=3000 nodemon -e js,css,scss,html www.js --log=logs/www.log

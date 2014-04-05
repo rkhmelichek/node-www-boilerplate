@@ -1,0 +1,16 @@
+{
+  "name": "node-www-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "authors": [
+    "Roman Khmelichek <roman.khmelichek@gmail.com>"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.0.2",
+    "jquery": "~2.1.0",
+    "lodash": "~2.4.1",
+    "font-awesome": "~4.0.3",
+    "html5shiv": "~3.7.0",
+    "respond": "~1.4.2"
+  }
+}
